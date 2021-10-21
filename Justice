@@ -1,0 +1,11 @@
+PyTorch
+    ☞ python을 위한 오픈소스 머신 러닝 라이브러리
+        1. 강력한 GPU가속화를 통한 Tensor계산
+        2. 테이프 기반 자동 삭제 시스템을 기반으로 구축된 심층 신경망
+
+PyTorch Tensors
+    ☞ tensor는 배열(array)이나 행렬(matrix)과 유사한 특수한 자료구조
+    ☞ PyTorch Tensor를 사용하여 모델의 입력과 출력뿐만 아니라 모델의 매개변수를 부호화(encode)함
+
+MNIST
+    ☞ MNIST 데이터베이스는 손으로 쓴 숫자들로 이루어진 대형 데이터베이스
