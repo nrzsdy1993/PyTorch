@@ -3,8 +3,9 @@
 import torch
 
 if torch.cuda.is_available():
-  device = torch.device("cuda:0")
-
+  DEVICE = torch.device('cuda')
+else:
+  DEVICE = torch.device('cpu')
 
 #MNIST 데이터 셋
 from torchvision import datasets
